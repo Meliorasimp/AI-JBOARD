@@ -1,13 +1,18 @@
+@import "tailwindcss";
+:root {
+  font-family: Inter;
+  --main-color: #2a2a2a;
+  --main-text-color: #ffffff;
+}
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.intropage-background-color {
+  background-color: var(--main-color);
+}
+
+.intropage-text-color {
+  color: var(--main-text-color);
+}
+
+.intropage-button-bg-color {
+  background-color: #DADADA;
 }
